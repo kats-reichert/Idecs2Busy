@@ -1,0 +1,84 @@
+{
+    "Radios": [ 
+        {
+            "RADIO_Name": "oben",
+            "RADIO_MULTICAST": "239.183.74.20",
+            "RADIO_PORT_PEI": 10800,
+            "RADIO_PORT_CTL": 10900
+        },
+        {
+            "RADIO_Name": "unten",
+            "RADIO_MULTICAST": "239.183.74.21",
+            "RADIO_PORT_PEI": 10800,
+            "RADIO_PORT_CTL": 10900
+        }
+    ],
+    "BusyLights": [
+        {
+            "Name": "BL1",
+            "BL_SERIAL": "652392FF009027FF20FFFFFF1102FFFF6302FFFF",
+            "RADIO": 0,
+            "DISPATCHERS": [0,1]
+        },
+        {
+            "Name": "BL2",
+            "BL_SERIAL": "652392FF009027FF20FFFFFF2602FFFF2202FFFF",
+            "RADIO": 0,
+            "DISPATCHERS": [2]
+        },
+        {
+            "Name": "BL2",
+            "BL_SERIAL": "652392FF009027FF20FFFFFF7102FFFF2802FFFF",
+            "RADIO": 1,
+            "DISPATCHERS": [3]
+        },
+        {
+            "Name": "BL2",
+            "BL_SERIAL": "652392FF009027FF22FFFFFF7502FFFF4102FFFF",
+            "RADIO": 1,
+            "DISPATCHERS": [4]
+        },
+        {
+            "Name": "BL2",
+            "BL_SERIAL": "652392FF009027FF22FFFFFF7902FFFF7202FFFF",
+            "RADIO": 1,
+            "DISPATCHERS": [5]
+        },
+        {
+            "Name": "BL2",
+            "BL_SERIAL": "652392FF009027FF22FFFFFF4002FFFF1902FFFF",
+            "RADIO": 1,
+            "DISPATCHERS": [6]
+        }
+    ],
+    "Dispatchers": [
+        {
+            "Name" : "ELW 21/12/1 AP1",
+            "isTX" : false
+        },
+        {
+            "Name" : "Mars 40/100-1",
+            "isTX" : false
+        },
+        {
+            "Name" : "Mars 40/100-2",
+            "isTX" : false
+        },
+        {
+            "Name" : "Mars 40/100-3",
+            "isTX" : false
+        },
+        {
+            "Name" : "Mars 40/100-4",
+            "isTX" : false
+        },
+        {
+            "Name" : "Mars 40/100-5",
+            "isTX" : false
+        },
+        {
+            "Name" : "Mars 40/100-6",
+            "isTX" : false
+        }
+    ]
+}

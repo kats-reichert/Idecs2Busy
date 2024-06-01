@@ -1,0 +1,15 @@
+{
+  "name": "idecsbusy",
+  "version": "1.0.0",
+  "description": "Idecs2BusyLight Connector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IV. BPA SG ET/IuK, Reichert",
+  "license": "ISC",
+  "dependencies": {
+    "@pureit/busylight": "^1.0.11",
+    "dgram": "^1.0.1"
+  }
+}
